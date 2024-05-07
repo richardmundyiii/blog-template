@@ -5,6 +5,7 @@
   margin-top: 0;
   padding-top: 0;
   background-color: rgb(37, 38, 53);
+  float: left;
 }
 
 .nav-left-container-light {
@@ -46,4 +47,11 @@
 }
 
 .admin-bottom-container {
+}
+
+.admin-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
 }
